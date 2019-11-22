@@ -1,0 +1,60 @@
+.brokar-navbar{
+    background: #fe8c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.btn-registrar{
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-registrar:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #f83600
+}
+
+.btn-regalo{
+    background-color: #00ACFF !important;
+}
+
+
+.img-container{
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 0 20px;
+}
+
+.section__title{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.section__divider{
+    background: #fe8c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 64px;
+    margin-top: 20px;
+}
+
+.argentina-title{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.argentina-text{
+    color: #f83600;
+}
+
+.page-footer{
+    background-color: black !important;
+}
+
+.collapsible-text{
+    color: #fe8c00;
+}
