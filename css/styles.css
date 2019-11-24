@@ -1,60 +1,100 @@
-.brokar-navbar{
-    background: #fe8c00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-.btn-registrar{
-    background-color: transparent;
-    font-weight: bold;
-    color: white;
+main {
+  flex: 1 0 auto;
 }
 
-.btn-registrar:hover{
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #f83600
+.brokar-navbar {
+  background: #fe8c00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #f83600,
+    #de6d25
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f83600,
+    #de6d25
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.btn-regalo{
-    background-color: #00ACFF !important;
+.btn-registrar {
+  background-color: transparent;
+  font-weight: bold;
+  color: white;
 }
 
-
-.img-container{
-    width: 100%;
-    height: 100%;
-    padding: 20px 20px 0 20px;
+.btn-registrar:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: #f83600;
 }
 
-.section__title{
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0 auto;
+.btn-regalo {
+  background-color: #00acff !important;
 }
 
-.section__divider{
-    background: #fe8c00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    width: 100%;
-    height: 64px;
-    margin-top: 20px;
+.img-container {
+  width: 100%;
+  height: 100%;
+  padding: 20px 20px 0 20px;
 }
 
-.argentina-title{
-    margin-top: 20px;
-    margin-bottom: 40px;
+.section__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 auto;
 }
 
-.argentina-text{
-    color: #f83600;
+.section__divider {
+  width: 100%;
+  height: 64px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.page-footer{
-    background-color: black !important;
+.argentina-title {
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
-.collapsible-text{
-    color: #fe8c00;
+.argentina-text {
+  color: #f83600;
 }
+
+.page-footer {
+  background-color: black !important;
+}
+
+.collapsible-text {
+  color: #de6d25;
+}
+
+.gray-background {
+  background-color: #f2f2f2;
+}
+
+.img-fix {
+  width: 100%;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .collapsible-body-text{
+      color: black;
+      font-size: 24px;
+  }
+
+  @media (min-width: 610px) {
+    #none-when-small {
+      display: none;
+    }
+  }
