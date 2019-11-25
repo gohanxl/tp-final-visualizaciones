@@ -22,6 +22,20 @@ main {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.btn-descargar {
+  background: #fe8c00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #f83600,
+    #de6d25
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f83600,
+    #de6d25
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .btn-registrar {
   background-color: transparent;
   font-weight: bold;
@@ -34,6 +48,7 @@ main {
 }
 
 .btn-regalo {
+  font-size: 18px;
   background-color: #00acff !important;
 }
 
@@ -43,8 +58,13 @@ main {
   padding: 20px 20px 0 20px;
 }
 
-.section__title {
+.collapsible-header {
   font-size: 24px;
+  font-weight: bold;
+}
+
+.section__title {
+  font-size: 30px;
   font-weight: bold;
   margin: 0 auto;
 }
@@ -75,26 +95,104 @@ main {
 
 .gray-background {
   background-color: #f2f2f2;
+  padding-top: 15px;
 }
 
 .img-fix {
+  display: inline-block;
   width: 100%;
 }
 
 .flexbox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
-  .collapsible-body-text{
-      color: black;
-      font-size: 24px;
-  }
+.collapsible-body-text {
+  color: black;
+  font-size: 20px;
+  padding: 0px !important;
+}
 
-  @media (min-width: 610px) {
-    #none-when-small {
-      display: none;
-    }
+.card-title {
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  color: #00acff;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.card-img-fix {
+  display: inline-block;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.footer-img {
+  display: inline-block !important;
+}
+
+.navbar-img {
+  padding: 13px;
+}
+
+.form {
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.font-size-24{
+  font-size: 24px;
+}
+
+.apps-img{
+  height: 215px;
+}
+
+.phone{
+  width: 50%;
+}
+
+.desktop{
+  width: 80%;
+}
+
+.descarga-img{
+  padding-bottom: 20px;
+}
+
+.label-font-size {
+  font-size: 24px !important;
+}
+
+.input-form {
+  margin-top: 20px !important;
+}
+
+.input-form:focus + .label-font-size {
+  color: #00acff !important;
+}
+
+.input-form:focus {
+  border-bottom: 1px solid #00acff !important;
+}
+
+@media (min-width: 610px) {
+  #none-when-small {
+    display: none;
   }
+}
+
+@media (max-width: 425px) {
+  .navbar-img {
+    padding: 7px;
+  }
+  .btn-regalo {
+    background-color: #00acff !important;
+    height: 100px !important;
+  }
+}
