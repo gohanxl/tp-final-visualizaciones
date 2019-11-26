@@ -77,6 +77,7 @@ main {
 }
 
 .argentina-title {
+  font-weight: normal;
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -90,7 +91,7 @@ main {
 }
 
 .collapsible-text {
-  color: #de6d25;
+  color: black;
 }
 
 .gray-background {
@@ -141,27 +142,26 @@ main {
 }
 
 .form {
-  margin-top: 40px;
   font-size: 24px;
 }
 
-.font-size-24{
+.font-size-24 {
   font-size: 24px;
 }
 
-.apps-img{
+.apps-img {
   height: 215px;
 }
 
-.phone{
+.phone {
   width: 50%;
 }
 
-.desktop{
+.desktop {
   width: 80%;
 }
 
-.descarga-img{
+.descarga-img {
   padding-bottom: 20px;
 }
 
@@ -181,6 +181,30 @@ main {
   border-bottom: 1px solid #00acff !important;
 }
 
+.bold-font {
+  font-weight: bold;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-22 {
+  font-size: 22px;
+}
+
+.orange-text-luquitas {
+  color: #f83600;
+}
+
+.cyan-text-luquitas {
+  color: #00acff;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+
 @media (min-width: 610px) {
   #none-when-small {
     display: none;
@@ -195,4 +219,75 @@ main {
     background-color: #00acff !important;
     height: 100px !important;
   }
+
+  .desktop {
+    width: 70%;
+  }
+}
+
+@media (max-width: 320px) {
+  .phone {
+    width: 65%;
+  }
+
+  .desktop {
+    width: 100%;
+  }
+}
+
+@media (min-width: 375px) {
+  .desktop {
+    width: 80%;
+  }
+}
+
+@media (min-width: 425px) {
+  .desktop {
+    width: 70%;
+  }
+}
+
+@media (min-width: 768px) {
+  .phone {
+    width: 60%;
+  }
+
+  .desktop {
+    width: 80%;
+  }
+
+  .home-body {
+    height: 135px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .phone {
+    width: 50%;
+  }
+
+  .desktop {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .phone {
+    width: 40%;
+  }
+
+  .desktop {
+    width: 60%;
+  }
+
+  .card-img-fix {
+    display: inline-block;
+    width: 60%;
+  }
+}
+
+.windows,
+.apple,
+.android {
+  width: 65%;
 }
