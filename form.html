@@ -25,9 +25,9 @@
                         <i class="material-icons">menu</i>
                     </a>
                     <ul class="left hide-on-med-and-down">
-                        <li><a href="sass.html">Cursos</a></li>
+                        <li><a href="#">Cursos</a></li>
                         <li><a href="apps.html">Apps</a></li>
-                        <li><a href="collapsible.html">Invertir</a></li>
+                        <li><a href="#">Invertir</a></li>
                     </ul>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="form.html" class="waves-effect waves-light btn-registrar">MI CUENTA</a></li>
@@ -38,7 +38,7 @@
         <ul class="sidenav" id="mobile-demo">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="form.html">Mi Cuenta</a></li>
-            <li><a href="sass.html">Cursos</a></li>
+            <li><a href="#">Cursos</a></li>
             <li><a href="apps.html">Apps</a></li>
             <li><a href="collapsible.html">Inverti</a></li>
         </ul>
@@ -63,25 +63,34 @@
                     <div class="row">
                         <div class="input-field col s12 m6">
                             <input placeholder="Ingrese su nombre" id="first_name" type="text"
-                                class="input-form validate">
+                                class="input-form validate" required
+                                oninvalid="setCustomValidity('Ingrese su nombre.')" 
+                                oninput="setCustomValidity('')">
                             <label for="first_name" class="label-font-size">Nombre</label>
                         </div>
                         <div class="input-field col s12 m6">
                             <input placeholder="Ingrese su apellido" id="last_name" type="text"
-                                class="input-form validate">
+                                class="input-form validate" required
+                                oninvalid="setCustomValidity('Ingrese su apellido.')" 
+                                oninput="setCustomValidity('')">
                             <label for="last_name" class="label-font-size">Apellido</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s12">
                             <input placeholder="Ingrese su contraseña" id="password" type="password"
-                                class="input-form validate">
+                                class="input-form validate" required
+                                oninvalid="setCustomValidity('Ingrese su contraseña.')" 
+                                oninput="setCustomValidity('')">
                             <label for="password" class="label-font-size">Contraseña</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s12">
-                            <input placeholder="Ingrese su email" id="email" type="email" class="validate input-form">
+                            <input placeholder="Ingrese su email" id="email" type="email" 
+                                class="validate input-form" required
+                                oninvalid="setCustomValidity('Ingrese su email.')" 
+                                oninput="setCustomValidity('')">
                             <label for="email" class="label-font-size">Email</label>
                         </div>
                     </div>
