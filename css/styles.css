@@ -142,6 +142,7 @@ main {
 }
 
 .form {
+  
   font-size: 24px;
 }
 
@@ -223,6 +224,10 @@ main {
   .desktop {
     width: 70%;
   }
+
+  .center-form{
+    padding: 0 25px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -244,6 +249,10 @@ main {
 @media (min-width: 425px) {
   .desktop {
     width: 70%;
+  }
+  .footer-img {
+    margin-top: 35px;
+    margin-left: 20px;
   }
 }
 

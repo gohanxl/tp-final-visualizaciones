@@ -30,12 +30,13 @@
                         <li><a href="collapsible.html">Invertir</a></li>
                     </ul>
                     <ul class="right hide-on-med-and-down">
-                        <li class="active"><a href="form.html" class="waves-effect waves-light btn-registrar">MI CUENTA</a></li>
+                        <li><a href="form.html" class="waves-effect waves-light btn-registrar">MI CUENTA</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="form.html">Mi Cuenta</a></li>
             <li><a href="sass.html">Cursos</a></li>
             <li><a href="apps.html">Apps</a></li>
@@ -48,41 +49,46 @@
             <div class="row">
                 <div class="col s12 m3"></div>
                 <div class="col s12 m6 center-align center">
-                    <p class="font-size-22" style="width: 70%, display: inline-block;">Bienvenido a <span class="bold-font cyan-text-luquitas">BROKAR!</span> <br>
+                    <p class="font-size-22" style="width: 70%, display: inline-block;">Bienvenido a <span
+                            class="bold-font cyan-text-luquitas">BROKAR!</span> <br>
                         Empezá a invertir en tu <span class="bold-font">futuro!</span></p>
                 </div>
                 <div class="col s12 m3"></div>
             </div>
         </div>
-        <div class="row">
-            <div class="col s12 m3"></div>
-            <form class="col s12 m6 form">
-                <div class="row">
-                    <div class="input-field col s6">
-                        <input placeholder="Ingrese su nombre" id="first_name" type="text" class="input-form validate">
-                        <label for="first_name" class="label-font-size">Nombre</label>
+        <div class="container">
+            <div class="row center-form">
+                <div class="col s12 m3"></div>
+                <form class="col s12 m6 form">
+                    <div class="row">
+                        <div class="input-field col s12 m6">
+                            <input placeholder="Ingrese su nombre" id="first_name" type="text"
+                                class="input-form validate">
+                            <label for="first_name" class="label-font-size">Nombre</label>
+                        </div>
+                        <div class="input-field col s12 m6">
+                            <input placeholder="Ingrese su apellido" id="last_name" type="text"
+                                class="input-form validate">
+                            <label for="last_name" class="label-font-size">Apellido</label>
+                        </div>
                     </div>
-                    <div class="input-field col s6">
-                        <input placeholder="Ingrese su apellido" id="last_name" type="text" class="input-form validate">
-                        <label for="last_name" class="label-font-size">Apellido</label>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input placeholder="Ingrese su contraseña" id="password" type="password"
+                                class="input-form validate">
+                            <label for="password" class="label-font-size">Contraseña</label>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input placeholder="Ingrese su contraseña" id="password" type="password"
-                            class="input-form validate">
-                        <label for="password" class="label-font-size">Contraseña</label>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input placeholder="Ingrese su email" id="email" type="email" class="validate input-form">
+                            <label for="email" class="label-font-size">Email</label>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input placeholder="Ingrese su email" id="email" type="email" class="validate input-form">
-                        <label for="email" class="label-font-size">Email</label>
-                    </div>
-                </div>
-                <button class="waves-effect waves-light btn btn-descargar right" type="submit">ENVIAR</button>
-            </form>
-            <div class="col s12 m3"></div>
+                    <button class="waves-effect waves-light btn btn-descargar right" type="submit">ENVIAR</button>
+                </form>
+
+            </div>
         </div>
         </div>
 
@@ -92,9 +98,9 @@
         <div class="row">
 
             <div class="col m3 s12 center">
-                <img src="img/zorroBlanco.png" class="footer-img" alt="" style="padding: 5px;">
+                <a href="index.html"><img src="img/zorroBlanco.png" class="footer-img" alt="zorroBlanco" style="padding: 5px;"></a>
             </div>
-            <div class="col m2 s4" style="padding-left: 25px">
+            <div class="col m2 s4" style="padding-left: 30px">
                 <h5 class="white-text">Invertir</h5>
                 <ul>
                     <li><a class="grey-text text-lighten-3" href="#!">Cotizaciones</a></li>
@@ -102,7 +108,7 @@
                     <li><a class="grey-text text-lighten-3" href="#!">Cuenta</a></li>
                 </ul>
             </div>
-            <div class="col m2 s4" style="padding-left: 25px">
+            <div class="col m2 s4" style="padding-left: 30px">
                 <h5 class="white-text">Apps</h5>
                 <ul>
                     <li><a class="grey-text text-lighten-3" href="#!">Windows</a></li>
@@ -110,7 +116,7 @@
                     <li><a class="grey-text text-lighten-3" href="#!">Apple</a></li>
                 </ul>
             </div>
-            <div class="col m1 s4">
+            <div class="col m1 s4" style="padding-left: 15px">
                 <h5 class="white-text">Cursos</h5>
                 <ul>
                     <li><a class="grey-text text-lighten-3" href="#!">Bronce</a></li>
@@ -118,8 +124,8 @@
                     <li><a class="grey-text text-lighten-3" href="#!">Oro</a></li>
                 </ul>
             </div>
-            <div class="col s12 m4 center"><img src="img/social-media.png" class="footer-img" alt=""
-                    style="padding: 5px;">
+            <div class="col s12 m4 center"><img src="img/social-media.png" class="footer-img" alt="social-media"
+                    style="margin-right: 10px;">
             </div>
         </div>
     </footer>
